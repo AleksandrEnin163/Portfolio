@@ -2,9 +2,9 @@
     background-color: #f9f9f9;
     display: flex;
     flex-direction: column;
+    height: 100vh;
     position: relative;
     width: 100%;
-    padding-bottom: 7rem;
 }
 
 .container {
@@ -17,7 +17,7 @@
     align-items: center;
     display: flex;
     gap: 10rem;
-    height: 55rem;
+    height: 65rem;
     justify-content: center;
     position: relative;
 }
@@ -84,11 +84,11 @@
 }
 
 .hero_text span a:hover{
-    color: rgb(44, 140, 243)
+    color: #147efb;
 }
 
 .hero_image{
-    animation: morph 8s ease-in-out infinite;
+    animation: morph 4s ease-in-out infinite;
     background-image: url('/Users/aleksandrenin/Desktop/AleksandrEninPortfolio/my_app/src/assets/hero_photo.jpeg');
     background-position: 50%;
     background-repeat: no-repeat;

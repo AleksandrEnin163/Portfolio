@@ -11,7 +11,7 @@ import scss from '../../assets/scss.svg'
 
 function Home() {
   return (
-    <section id='#home' className={s.hero}>
+    <section id='home' className={s.hero}>
         <div className={s.container}>
             <div className={s.content}>
                 <div className={s.hero_main}>
