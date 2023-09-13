@@ -76,3 +76,26 @@
     font-size: 1.7rem;
     text-decoration: none;
 }
+
+@media (max-width: 1020px) {
+    .contact{
+        padding: 8rem 0;
+    }
+  }
+
+@media (max-width: 750px) {
+    .contact_title{
+        text-align: center;
+    }
+
+    .contact_icons{
+        flex-direction: column;
+        gap: 5rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contact_icon_box{
+        flex-direction: column;
+    }
+  }

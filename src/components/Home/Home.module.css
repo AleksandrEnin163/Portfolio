@@ -138,6 +138,7 @@
     flex-wrap: wrap;
     gap: 2.5rem;
     list-style: none;
+    justify-content: center;
 }
 
 .skills ul li {
@@ -214,16 +215,22 @@
 
     .hero_text img{
         top: 6.4rem;
-        right: 4rem;
+        right: 3rem;
         width: 4.5rem;
         height: 4.5rem;
     }
 
-    .hero_img{
+    .hero_image{
         width: 28rem;
         height: 28rem;
     }
 }
+
+@media (max-width: 445px) {
+    .hero_text img{
+        right: 1.7rem;
+    }
+}   
 
 @media (max-width: 400px) {
     .hero_text img{

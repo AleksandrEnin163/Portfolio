@@ -41,3 +41,18 @@ footer h3 {
 .footer_content_socials svg:hover {
     transform: scale(1.2)
 }
+
+@media (max-width: 460px){
+    .container {
+        padding: 0 1.7rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .footer_content{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        text-align: center;
+  }
+}

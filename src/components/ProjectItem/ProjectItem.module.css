@@ -79,3 +79,34 @@
 .reversed{
     flex-direction: row-reverse!important;
 }
+
+@media (max-width: 1020px) {
+    .project_container{
+        height: 75rem;
+        flex-direction: column !important;
+        gap: 3rem;
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .project_text{
+        margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 650px) {
+    .project_img{
+        width: 100%;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .project_container{
+        width: 100%;
+    }
+
+    .project_text{
+        width: 100%;
+    }
+}
+

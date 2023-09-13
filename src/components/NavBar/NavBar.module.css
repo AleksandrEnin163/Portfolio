@@ -35,3 +35,9 @@
 .header li a:hover{
     color: #147efb;
 }
+
+@media (max-width: 400px){
+    .header{
+        padding: 25px 30px;
+    }
+}
