@@ -74,6 +74,11 @@
     text-decoration: none;
     align-items: center;
     display: flex;
+    transition: all .23s;
+}
+
+.links a:hover{
+    color: #147efb;
 }
 
 .reversed{

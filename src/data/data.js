@@ -14,7 +14,7 @@ export const projects_data = [
     // },
     {
         id: 2,
-        name: 'Crypto Search',
+        name: 'Coin Search',
         description: 'Adaptive and responsive ReactApp with the actual data of cryptocurrencies and search function',
         link_git: 'https://github.com/AleksandrEnin163/CryptoSearch',
         link_demo: 'https://aleksandrenin163.github.io/CryptoSearch/',
